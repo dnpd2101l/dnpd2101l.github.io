@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #edebe7
+}
+#header{
+	position: relative;
+}
+.cachle{
+	padding: 100px 200px;
+}
+.title{
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	font-size: 60px;
+	font-style: italic;
+	padding: 20px 0;
+	color: #404040;
+}
+.textp{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #040404;
+}
+.vertical {
+            border-left: 2px solid #404040;
+            height: 200px;
+            position:absolute;
+            left: 50%;
+ }
+#header .navbar ul li{
+	display: inline;
+	padding: 10px 20px;
+	list-style-type: none;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+#header li:hover{
+	cursor: pointer;
+	border-bottom: solid 1px white;
+}
+#header .navbar{
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+#header .textbox{
+	text-align: center;
+}
+#header .backgound{
+	box-shadow: inset 0 0 0 50vw rgba(0,0,0,0.70);
+	background-image:url("img/victoria-bilsborough-R5xMbnruzAU-unsplash.jpg");
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+#header .textbox h4{
+	color: white;
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+#header .textbox h3{
+	color: white;
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+#header .textbox span{
+	color: white;
+	font-family: 'Times New Roman',serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+#header .textbox h2{
+	color: white;
+	animation-duration: 2s;
+	font-size: 100px;
+	padding: 10px;
+	font-family: 'Beyond Infinity - Demo', sans-serif;
+	font-weight: 100;
+}
+#header .textbox hr{
+	width: 30%;
+	margin: 20px auto;
+}
+#header .textbox p{
+	color: white;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+#header .textbox input{
+	margin: 20px;
+	color: white;
+	background-color: transparent;
+	padding: 10px 30px;
+	border: solid 1px white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px
+}
+#header .textbox input:hover{
+	color: black;
+	background-color: white;
+	cursor: pointer;
+	transition: color 1s;
+}
+#aboutme{
+	background-color: #edebe7;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+#aboutme .left{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+#aboutme img{
+	width: 70%;
+}
+#aboutme .right{
+	color: #404040;
+	width: 40%;
+}
+#aboutme .contact{
+	display: flex;
+	padding: 40px 0;
+	
+}
+#aboutme .contact2{
+	padding-left: 30px;
+}
+#aboutme h4{
+	padding: 5px 0;
+}
+#aboutme .interestsicon{
+	padding: 15px 0 50px;
+}
+#aboutme .interestsicon i{
+	padding: 0 30px 0 0 ;
+}
+#aboutme span{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+#aboutme a{
+	color: #404040;
+	background-color: transparent;
+	padding: 10px 30px;
+	border: solid 1px #404040;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: 500;
+}
+#aboutme a:hover{
+	color: white;
+	background-color: #404040;
+	cursor: pointer;
+	transition: color 1s;
+	font-weight: 500;
+}
+#feedback{
+	height: 230px;
+	background-image: url("././img/photo-1523726491678-bf852e717f6a.jpg");
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: inset 0 0 0 50vw rgba(0,0,0,0.60);
+}
+#feedback h3{
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-weight: 30;
+	font-size: 28px;
+	padding-bottom: 20px
+}
+#feedback h5{
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-weight: 100;
+	font-size: 20px;
+	font-style: italic
+}
+#service .flexservice{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+#service h1{
+	text-align: center;
+}
+#service .flexservice .service1{
+	text-align: center;
+	width: 25%;
+	padding: 50px 30px;
+}
+#service .flexservice .service1:hover{
+	text-align: center;
+	width: 25%;
+	cursor: pointer;
+	transform: translate(0,-10px);
+	transition: transform 0.5s;
+	box-shadow: 0 0 10px 2px #2e2e2e4d;
+	padding: 50px 30px;
+}
+#service .flexservice h3{
+	padding: 20px 0;
+	font-family: 'Poppins', sans-serif;
+}
+#portfolio .text{
+	text-align: center;
+	color: #040404;
+}
+#portfolio .works{
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows: 400px 400px;
+	grid-gap: 30px;
+	justify-content: center;
+	padding: 50px;
+}
+#portfolio img{
+	width: 100%;
+	height: 400px;
+}
+#portfolio .sp1:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: transform 0.5s;
+}
+#skills{
+	padding-top: 0;
+}
+#skills .sws{
+	display: flex;
+	justify-content: center;
+	padding-top:50px
+}
+#skills .text{
+	text-align: center;
+}
+#skills .sws img{
+	width: 70px;
+	padding: 0 50px;
+}
+#footer{
+	margin-top:50px;
+	background-color: hsla(0,0%,26%,1.00);
+	padding:20px 300px 40px;
+}
+#footer h1{
+	color: white;
+	font-size: 50px
+}
+#footer .flex{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+#footer .left i{
+	font-size: 20px;
+	padding: 10px 0;
+}
+#footer .right i{
+	font-size: 50px;
+	padding: 10px 30px;
+	color: white;
+}
+#footer .right i:hover{
+	cursor: pointer;
+	transform: scale(1.5);
+	transition: transform 0.5s;
+}
+#copyright{
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
